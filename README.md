@@ -46,7 +46,7 @@ https://learn.microsoft.com/en-us/azure/well-architected/security/design-pattern
 
 See the diagram below to understand how those approaches uses Microsoft security services as their foundation.
 
-second diagram
+![image](https://github.com/user-attachments/assets/4f29d3c1-3615-44f5-8ebf-5197b899b28e)
 
 ## Why Security approaches matter to Security Review?
 
