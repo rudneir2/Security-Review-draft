@@ -7,7 +7,8 @@ Security Review in a Microsoft public cloud environment can involve not only Azu
 
 The picture below shows the big picture for a Security Review.
 
-![image](https://github.com/user-attachments/assets/e38cf7c2-23bd-45e3-a27a-0b15efe41377)
+<img width="770" alt="image" src="https://github.com/user-attachments/assets/6a931fbe-7a69-4fa1-86a0-7ac449aac223">
+
 
 To proceed with a Security Review, sometimes referred to as Security Assessment or Security Deep Dive, you need to understand some of the Security approaches considered by Microsoft.
 
