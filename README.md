@@ -7,7 +7,7 @@ Security Review in a Microsoft public cloud environment can involve not only Azu
 
 The picture below shows the big picture for a Security Review.
 
-<img width="770" alt="image" src="https://github.com/user-attachments/assets/6a931fbe-7a69-4fa1-86a0-7ac449aac223">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/6a931fbe-7a69-4fa1-86a0-7ac449aac223">
 
 
 To proceed with a Security Review, sometimes referred to as Security Assessment or Security Deep Dive, you need to understand some of the Security approaches considered by Microsoft.
@@ -19,31 +19,32 @@ Below you will find what are those Security approaches, the most important readi
 
 ## 2.1 Microsoft Security Benchamark
 
+The Microsoft cloud security benchmark (MCSB) provides prescriptive best practices and recommendations using Microsoft Security services as its foundation. This is the main reason to consider this "approach" as one of the most important as reference for the Security Review.
+
 https://learn.microsoft.com/en-us/security/benchmark/azure/overview
 
-**NOTE:** 
-The Microsoft cloud security benchmark (MCSB) provides prescriptive best practices and recommendations using Microsoft Security services as its foundation. This is the main reason to consider this "approach" as one of the most important as reference for the Security Review.
 
 ## 2.2 Cloud Adoption Framework (CAF) and Azure Landing Zone (ALZ)
 
-https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/
-
-**NOTE:** 
 Understand CAF, mainly the Azure Landing Zone, helps you (Security Engineer) to verify and guarantee that Azure environments in the customer you will do the Security Review, are configured according to the Azure Landing Zone best practices. This is a pre-requisite to initiate a Security Review.
+
+https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/
 
 ## 2.3 Zero Trust
 
-**Zero Trust concepts** - https://learn.microsoft.com/en-us/security/zero-trust/zero-trust-overview
-
-**Zero Trust pillars** - https://learn.microsoft.com/en-us/security/zero-trust/deploy/overview
-
-**NOTE:** 
 Understand Zero Trust is important mainly to use its pillars to make easier your Security Review work. Additionally Zero Trust helps you (Security Engineer) to cover important Security principle and make sure they will be covered during your review.
 
+For **Zero Trust concepts** - https://learn.microsoft.com/en-us/security/zero-trust/zero-trust-overview
+
+For **Zero Trust pillars** - https://learn.microsoft.com/en-us/security/zero-trust/deploy/overview
+
 ## 2.4 Well Architected Framework (WAF)
+
+Microsoft WAF presents cloud design patterns that support Security. It is a different approach compared to the other. It is not essential to Security Review, but it is good to understand and be aware about the security patterns presented by WAF.
+
 https://learn.microsoft.com/en-us/azure/well-architected/security/design-patterns
 
-**NOTE:** Microsoft WAF presents cloud design patterns that support Security. It is a different approach compared to the other. It is not essential to Security Review, but it is good to understand and be aware about the security patterns presented by WAF.
+## 2.5 Architecture diagram that shows how approaches helps to map customer environment and Microsoft security services
 
 See the diagram below to understand how those approaches uses Microsoft security services as their foundation.
 
