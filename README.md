@@ -91,6 +91,8 @@ You can begin by sending an email to the customer, requesting any available arch
 
 Once you have some diagrams, schedule a meeting with the customer to review them or gather additional information. In cases where the customer doesn't have any diagrams to share, use the initial meeting to collaborate with them on drafting some diagrams together.
 
+It is important to ask customer about any **regulatory compliance** that he intend to consider on Azure environment.
+
 
 ## 6. What diagrams and information are most important to start your security review?
 
@@ -210,11 +212,15 @@ With the time estimated above, we may consider that a Security Review may take b
 
 ## 12. FAQ
 
-### Do I need to be at Level 300 in every Security pillar (Network, Identity, Infrastructure, Endpoint, App, and Data) to deliver a Security Review?
+### Do I need to be at least at Level 200 in every Security pillar (Network, Identity, Infrastructure, Endpoint, App, and Data) to deliver a Security Review?
 
-While it would be ideal to have Level 300 expertise in each security pillar, it’s understandable that achieving this level of skill across all areas can be challenging. However, to effectively review and secure an environment, it’s crucial to understand how that environment functions as thoroughly as possible. Take networking, for example. The more you know about Azure VNET, UDR, VPN, Private Endpoint, DNS, Load Balancers, and other network components, the better you can implement security using tools like NSGs, ASGs, Firewalls, DDOS protection, Web Application Firewalls, and more.
+While it would be ideal to have Level 200 expertise in each security pillar, it’s understandable that achieving this level of skill across all areas can be challenging. However, to effectively review and secure an environment, it’s crucial to understand how that environment functions as thoroughly as possible. Take networking, for example. The more you know about Azure VNET, UDR, VPN, Private Endpoint, DNS, Load Balancers, and other network components, the better you can implement security using tools like NSGs, ASGs, Firewalls, DDOS protection, Web Application Firewalls, and more.
 
-If you're not yet at Level 300, you should aim to reach at least Level 200 in each area.
+If you're not yet at Level 200, you should aim to reach at least Level 200 in each area simply by learning all Microsoft Learn documents and applying those skills in your Azure portal.
+
+Another strategy is to shadow with others Engineers or even doing a reverse-Shadow.
+
+Co-deliver with someone skilled in such an area, such as Network or Application and Dev, works very well to learn and speed up your Security Review.
 
 ### Is Azure Landing Zone a prerequisite for a Security Review?
 
