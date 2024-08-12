@@ -108,7 +108,7 @@ Now that you have gathered all the information about the customer’s environmen
 
 ### 8.1 To apply Security recommendations for Network:
 
-- Review Microsoft Security Benchmark Network Security Controls:
+- Review Microsoft Security Benchmark Network Security Controls:<br/>
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-network-security
 
 
