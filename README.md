@@ -48,9 +48,11 @@ https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-z
 
 Understand Zero Trust is important mainly to use its pillars to make easier your Security Review work. Additionally Zero Trust helps you (Security Engineer) to cover important Security principle and make sure they will be covered during your review.
 
-For **Zero Trust concepts** - https://learn.microsoft.com/en-us/security/zero-trust/zero-trust-overview
+For **Zero Trust concepts**<br/>
+https://learn.microsoft.com/en-us/security/zero-trust/zero-trust-overview
 
-For **Zero Trust pillars** - https://learn.microsoft.com/en-us/security/zero-trust/deploy/overview
+For **Zero Trust pillars**<br/>
+https://learn.microsoft.com/en-us/security/zero-trust/deploy/overview
 
 ### 2.4 Well Architected Framework (WAF)
 
@@ -114,64 +116,64 @@ https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-network-security
 
 ### 8.2 To apply Security recommendations to Endpoints:
 
-- Review Microsoft Security Benchmark Endpoint Security Controls:
+- Review Microsoft Security Benchmark Endpoint Security Controls:<br/>
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-endpoint-security
 
 
 ### 8.3 To apply Security recommendations to Infrastructure:
 
-- Review Microsoft Security Benchmark Asset Management Security Controls:
+- Review Microsoft Security Benchmark Asset Management Security Controls:<br/>
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-asset-management
 
-- Review Microsoft Security Benchmark Logging and Threat detection Security Controls:
+- Review Microsoft Security Benchmark Logging and Threat detection Security Controls:<br/>
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-logging-threat-detection
 
-- Review Microsoft Security Benchmark Incident Response Security Controls:
+- Review Microsoft Security Benchmark Incident Response Security Controls:<br/>
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-incident-response
 
-- Review Microsoft Security Benchmark Posture and vulnerability management Security Controls:
+- Review Microsoft Security Benchmark Posture and vulnerability management Security Controls:<br/>
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-posture-vulnerability-management
 
-- Review Microsoft Security Benchmark Backup and Recovery Security Controls:
+- Review Microsoft Security Benchmark Backup and Recovery Security Controls:<br/>
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-backup-recovery
 
-- Review Microsoft Security Benchmark Governance and Strategy Security Controls:
+- Review Microsoft Security Benchmark Governance and Strategy Security Controls:<br/>
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-governance-strategy
 
 
 
 ### 8.4 To apply Security recommendations to Application:
 
-- Review Microsoft Security Benchmark Devops Security Controls:
+- Review Microsoft Security Benchmark Devops Security Controls:<br/>
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-devops-security
 
-- Review Microsoft Security Baseline for Azure App Services Security Controls:
+- Review Microsoft Security Baseline for Azure App Services Security Controls:<br/>
 https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/app-service-security-baseline
 
 
 ### 8.5 To apply Security recommendations to Data (includes Storage services and Database services):
 
-- Review Microsoft Security Benchmark Data Protection Security Controls:
+- Review Microsoft Security Benchmark Data Protection Security Controls:<br/>
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-data-protection
 
-- Review Microsoft Security Baseline for Azure SQL database Security Controls:
+- Review Microsoft Security Baseline for Azure SQL database Security Controls:<br/>
 https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/azure-sql-security-baseline
 
 
 
 ### 8.6 To apply Security recommendations to Identity:
 
-- Review Microsoft Security Benchmark Identity Management Security Controls:
+- Review Microsoft Security Benchmark Identity Management Security Controls:<br/>
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-identity-management
 
-- Review Microsoft Security Benchmark Privileged Access Security Controls:
+- Review Microsoft Security Benchmark Privileged Access Security Controls:<br/>
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-privileged-access
 
 
 **NOTE:**
 Within the Microsoft Security Benchmark, there are Microsoft Security Baselines that provide specific security controls tailored to Azure services and workloads. Depending on the resources in the customer's environment, you may need to consider different Microsoft Security Baseline controls to effectively support your Security Review.
 
-See Microsoft Security Baseline details here:
+See Microsoft Security Baseline details here:<br/>
 https://learn.microsoft.com/en-us/security/benchmark/azure/security-baselines-overview
 
 ##  9. Writing the recommendations
