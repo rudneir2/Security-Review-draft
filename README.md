@@ -1,6 +1,21 @@
 # Security Review (draft) v0
 Initial draft for the Microsoft Security review, with a focus on Azure, before it is added to the FT Wiki page.
 
+## Table of Content
+
+1. Introduction
+2. Introduction to the Security Approaches
+3. Why Security approaches matter to Security Review?
+4. Let's put our hands-on
+5. How to collect the right information to have a great Security Review recommendation
+6. What diagrams and information are most important to start your security review?
+7. How to document the IT customer environment
+8.  Where to go to start providing Security recommendations (how to do it)
+9.  Writing the recommendations
+10. How to share the Recommendations with customer
+11. Next steps after deliver recommendations to customer
+12. FAQ
+
 ## 1. Introduction
 
 Security Review in a Microsoft public cloud environment can involve not only Azure public cloud but also an on-premises environment and or another public cloud environment vendor, having a hybrid environment.
@@ -91,79 +106,65 @@ You should collect all the diagrams, Word documents, and spreadsheets provided b
 
 Now that you have gathered all the information about the customer’s environment, the next step is to align it with the Microsoft security controls outlined in the Microsoft Security Benchmark. Before proceeding, ensure that you have organized the customer’s IT environment according to the Zero Trust pillars and have thoroughly reviewed the entire Microsoft Security Benchmark. This will help you fully understand the available security controls that can be applied to the customer’s environment.
 
-## 8.1 To apply Security recommendations for Network:
+### 8.1 To apply Security recommendations for Network:
 
 - Review Microsoft Security Benchmark Network Security Controls:
-
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-network-security
 
 
-## 8.2 To apply Security recommendations to Endpoints:
+### 8.2 To apply Security recommendations to Endpoints:
 
 - Review Microsoft Security Benchmark Endpoint Security Controls:
-
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-endpoint-security
 
 
-## 8.3 To apply Security recommendations to Infrastructure:
+### 8.3 To apply Security recommendations to Infrastructure:
 
 - Review Microsoft Security Benchmark Asset Management Security Controls:
-
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-asset-management
 
 - Review Microsoft Security Benchmark Logging and Threat detection Security Controls:
-
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-logging-threat-detection
 
 - Review Microsoft Security Benchmark Incident Response Security Controls:
-
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-incident-response
 
 - Review Microsoft Security Benchmark Posture and vulnerability management Security Controls:
-
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-posture-vulnerability-management
 
 - Review Microsoft Security Benchmark Backup and Recovery Security Controls:
-
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-backup-recovery
 
 - Review Microsoft Security Benchmark Governance and Strategy Security Controls:
-
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-governance-strategy
 
 
 
-## 8.4 To apply Security recommendations to Application:
+### 8.4 To apply Security recommendations to Application:
 
 - Review Microsoft Security Benchmark Devops Security Controls:
-
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-devops-security
 
 - Review Microsoft Security Baseline for Azure App Services Security Controls:
-
 https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/app-service-security-baseline
 
 
-## 8.5 To apply Security recommendations to Data (includes Storage services and Database services):
+### 8.5 To apply Security recommendations to Data (includes Storage services and Database services):
 
 - Review Microsoft Security Benchmark Data Protection Security Controls:
-
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-data-protection
 
 - Review Microsoft Security Baseline for Azure SQL database Security Controls:
-
 https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/azure-sql-security-baseline
 
 
 
-## 8.6 To apply Security recommendations to Identity:
+### 8.6 To apply Security recommendations to Identity:
 
 - Review Microsoft Security Benchmark Identity Management Security Controls:
-
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-identity-management
 
 - Review Microsoft Security Benchmark Privileged Access Security Controls:
-
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-privileged-access
 
 
@@ -171,7 +172,6 @@ https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-privileged-acces
 Within the Microsoft Security Benchmark, there are Microsoft Security Baselines that provide specific security controls tailored to Azure services and workloads. Depending on the resources in the customer's environment, you may need to consider different Microsoft Security Baseline controls to effectively support your Security Review.
 
 See Microsoft Security Baseline details here:
-
 https://learn.microsoft.com/en-us/security/benchmark/azure/security-baselines-overview
 
 ##  9. Writing the recommendations
@@ -183,7 +183,7 @@ Next, you'll begin drafting recommendations, organized according to the Zero Tru
 These recommendations can be documented in a spreadsheet, Word document, or OneNote page—whichever format the customer prefers.
 
 
-## 10. How to share it with customer
+## 10. How to share the Recommendations with customer
 
 You can send all the recommendations to the customer via email in your preferred format, as there is currently no standardized format for writing the recommendations. Ask the customer to review them, and once they have done so, you can schedule a meeting to go over the recommendations and address any questions they may have.
 
