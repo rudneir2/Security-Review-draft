@@ -48,7 +48,7 @@ https://learn.microsoft.com/en-us/azure/well-architected/security/design-pattern
 
 See the diagram below to understand how those approaches uses Microsoft security services as their foundation.
 
-![image](https://github.com/user-attachments/assets/4f29d3c1-3615-44f5-8ebf-5197b899b28e)
+![image](https://github.com/user-attachments/assets/a400c425-4c0b-42cc-a8fb-bb3bb05404e5)
 
 ## 3. Why Security approaches matter to Security Review?
 
@@ -73,7 +73,7 @@ Combining all of these aspects will ensure a successful Security Review.
 
 You may start with an email by asking customer for all architecture diagram they have available. The most you know his environment the most great security recommendations you will be able to write.
 
-Once you have some diagrams to start, you may set a meeting with customer to review those diagrams or ask for more information. There will be some times that customer doesn't have any diagrams to share. So, you will use the first meeting to start drafting some diagrams along with customer.![image](https://github.com/user-attachments/assets/34dd4afe-4c54-429d-a193-5573b3d6c60d)
+Once you have some diagrams to start, you may set a meeting with customer to review those diagrams or ask for more information. There will be some times that customer doesn't have any diagrams to share. So, you will use the first meeting to start drafting some diagrams along with customer.
 
 
 ## 6. What diagrams and information is important so you may start your security review?
@@ -86,25 +86,25 @@ Once you have some diagrams to start, you may set a meeting with customer to rev
 
 ## 7. How to document the IT customer environment
 
-You may collect all the diagrams or word documents or spreadsheets that customer provide you and organize those information into Zero Trust Pillars. If you can do it in a visual way, it is better to understand all resources relationships. If you can't have everything visually, it is fine to have the information in documents or spreadsheet.![image](https://github.com/user-attachments/assets/fd321ef3-a1f7-4f2d-bafc-7f4d35fdc4ff)
+You may collect all the diagrams or word documents or spreadsheets that customer provide you and organize those information into Zero Trust Pillars. If you can do it in a visual way, it is better to understand all resources relationships. If you can't have everything visually, it is fine to have the information in documents or spreadsheet.
 
 ## 8. Where to go to start providing Security recommendations (how to do it)
 
 Now that you have all information regarding Customer environment, you will start matching customer IT environment with the Microsoft security control published on Microsoft Security Benchmark. Before you proceed, make sure you grouped customer IT environment according to Zero Trust pillars and you have read the entire Microsoft Security Benchmark controls, so you really understand all Security controls availble to be applied to Customer environment.
 
-## 8.1 To apply Security recommendations for Network:
+### 8.1 To apply Security recommendations for Network:
 
 Review Microsoft Security Benchmark Network Security Controls:
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-network-security
 
 
-## 8.2 To apply Security recommendations to Endpoints:
+### 8.2 To apply Security recommendations to Endpoints:
 
 Review Microsoft Security Benchmark Endpoint Security Controls:
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-endpoint-security
 
 
-## 8.3 To apply Security recommendations to Infrastructure:
+### 8.3 To apply Security recommendations to Infrastructure:
 
 Review Microsoft Security Benchmark Asset Management Security Controls:
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-asset-management
@@ -126,7 +126,7 @@ https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-governance-strat
 
 
 
-## 8.4 To apply Security recommendations to Application:
+### 8.4 To apply Security recommendations to Application:
 
 Review Microsoft Security Benchmark Devops Security Controls:
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-devops-security
@@ -135,7 +135,7 @@ Review Microsoft Security Baseline for Azure App Services Security Controls:
 https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/app-service-security-baseline
 
 
-## 8.5 To apply Security recommendations to Data (includes Storage services and Database services):
+### 8.5 To apply Security recommendations to Data (includes Storage services and Database services):
 
 Review Microsoft Security Benchmark Data Protection Security Controls:
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-data-protection
@@ -145,7 +145,7 @@ https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/azure-sql-s
 
 
 
-## 8.6 To apply Security recommendations to Identity:
+### 8.6 To apply Security recommendations to Identity:
 
 Review Microsoft Security Benchmark Identity Management Security Controls:
 https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-identity-management
@@ -172,23 +172,21 @@ The recommendations may be put in a spreadsheet or in word document or in an One
 
 ## 10. How to share it with customer
 
-You may send all the recommendations to Customer through email in the format you prefer (at this time there is not a standard to write the recommendations) and ask him to review all of the recommendations. After he review it, you may set a meeting to review and respond to questions on top of the recommendations.![image](https://github.com/user-attachments/assets/caf36b1f-9ab0-41ef-ad73-bb2164d8dfbd)
+You may send all the recommendations to Customer through email in the format you prefer (at this time there is not a standard to write the recommendations) and ask him to review all of the recommendations. After he review it, you may set a meeting to review and respond to questions on top of the recommendations.
 
 ## 11. Next steps after deliver recommendations to customer
 
 Give a time to customer to review the recommendations. If you can, provide for every recommendation, one or two links that may explain how to implement such recommendations.
 
-	- Kick-off meeting (understand the scope) (1 hour)
-		○ Microsoft cloud Security overview
-		○ Security approaches overview
-	- Understand Customer environment (1 to 3 hours)
-	- Zero Trust approach and the ZT pillars (1 hours)
-	- Network security review (1 to 2 hours)
-	- Identity security review (1 to 2 hours)
-	- Infrastructure security review (1 to 3 hours)
-	- App and Data security review (1 to 3 hours)
-	- Writing and organizing the security recommendations (internal activity) (2 to 4 hours)
-Review recommendations with customer / Explain (overview) how to implement the recommendations (1 to 3 hours)
+- Kick-off meeting (understand the scope, present Microsoft Cloud security overview and Security approaches) **(1 hour)**
+- Understand Customer environment **(1 to 3 hours)**
+- Zero Trust approach and the ZT pillars **(1 hours)**
+- Network security review **(1 to 2 hours)**
+- Identity security review **(1 to 2 hours)**
+- Infrastructure security review **(1 to 3 hours)**
+- App and Data security review **(1 to 3 hours)**
+- Writing and organizing the security recommendations (internal activity) **(2 to 4 hours)**
+- Review recommendations with customer / Explain (overview) how to implement the recommendations (1 to 3 hours)
 
 ## 12. FAQ
 
