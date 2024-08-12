@@ -150,6 +150,8 @@ https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-devops-security
 - Review Microsoft Security Baseline for Azure App Services Security Controls:<br/>
 https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/app-service-security-baseline
 
+**NOTE:**
+Depends on the type of application and workload used in the Customer environment, you may have to use others Security Controls available under **Microsoft Security Baseline.**
 
 ### 8.5 To apply Security recommendations to Data (includes Storage services and Database services):
 
@@ -159,7 +161,8 @@ https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-data-protection
 - Review Microsoft Security Baseline for Azure SQL database Security Controls:<br/>
 https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/azure-sql-security-baseline
 
-
+**NOTE:**
+Depends on the type of database and workload used in the Customer environment, you may have to use others Security Controls available under **Microsoft Security Baseline.**
 
 ### 8.6 To apply Security recommendations to Identity:
 
